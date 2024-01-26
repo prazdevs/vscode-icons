@@ -72,7 +72,8 @@
     "icons:preview": "tsx scripts/preview.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "pack": "vsce package --no-dependencies"
+    "pack": "vsce package --no-dependencies",
+    "release": "changelogen --release"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
