@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v0.34.3
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.2...v0.34.3)
+
 ## v0.34.2
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.1...v0.34.2)
