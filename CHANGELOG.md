@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.34.2
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.1...v0.34.2)
+
+### 🏡 Chore
+
+- Script ([a615ecb](https://github.com/catppuccin/vscode-icons/commit/a615ecb))
+- Better scripts ([0777c74](https://github.com/catppuccin/vscode-icons/commit/0777c74))
+
+### ❤️ Contributors
+
+- Prazdevs
+
 ## v0.34.1
 
 
