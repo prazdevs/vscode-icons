@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.34.6
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.5...v0.34.6)
+
+### 🏡 Chore
+
+- Better ci ([e71dd25](https://github.com/catppuccin/vscode-icons/commit/e71dd25))
+
+### ❤️ Contributors
+
+- Prazdevs
+
 ## v0.34.5
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.4...v0.34.5)
