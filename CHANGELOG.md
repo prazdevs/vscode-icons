@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.34.4
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.3...v0.34.4)
+
+### 🏡 Chore
+
+- Setup linting hooks ([dfc9798](https://github.com/catppuccin/vscode-icons/commit/dfc9798))
+
+### ❤️ Contributors
+
+- Prazdevs
+
 ## v0.34.3
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.34.2...v0.34.3)
