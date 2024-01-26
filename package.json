@@ -73,9 +73,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",
-    "release": "changelogen -r --push",
-    "release:patch": "changelogen -r --patch --push ",
-    "release:minor": "changelogen -r --minor --push "
+    "release": "changelogen --exec \"pnpm icons:preview\" --release --push"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
