@@ -73,6 +73,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",
+    "release": "changelogen -r --push",
     "release:patch": "changelogen --release --push --patch",
     "release:minor": "changelogen --release --push --minor"
   },
