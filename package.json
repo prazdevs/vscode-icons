@@ -73,7 +73,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",
-    "release": "changelogen --release"
+    "release": "changelogen --r --push"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
