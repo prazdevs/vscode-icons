@@ -12,6 +12,8 @@ jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -43,10 +45,13 @@ jobs:
           dependencies: false
           dryRun: true
 
+      - name: Echo
+        run: echo ${{ steps.pack.outputs.vsixPath }}
+
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ steps.outputs.pack.vsixPath }}
+          file: ${{ steps.pack.outputs.vsixPath }}
           tag: ${{ github.ref }}
           overwrite: true
