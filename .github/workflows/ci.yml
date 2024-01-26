@@ -1,10 +1,9 @@
-name: CI
+name: Release
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    tags:
+      - '*'
 
 env:
   PUPPETEER_SKIP_DOWNLOAD: true
@@ -38,7 +37,16 @@ jobs:
 
       - name: Package extension
         uses: haaleo/publish-vscode-extension@v1
+        id: pack
         with:
           pat: _
           dependencies: false
           dryRun: true
+
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ steps.outputs.pack.vsixPath }}
+          tag: ${{ github.ref }}
+          overwrite: true
