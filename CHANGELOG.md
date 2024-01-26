@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.35.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/7107192c2afff9a5e614f2352b19a3818dba0cbc...v0.35.0)
+
+### 🚀 Enhancements
+
+- ⚠️  V1 ([561e16a](https://github.com/catppuccin/vscode-icons/commit/561e16a))
+
+### 🏡 Chore
+
+- **release:** V0.34.7 ([a003aa3](https://github.com/catppuccin/vscode-icons/commit/a003aa3))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  V1 ([561e16a](https://github.com/catppuccin/vscode-icons/commit/561e16a))
+
+### ❤️ Contributors
+
+- Prazdevs
+
 ## v0.34.7
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/561e16a...v0.34.7)
